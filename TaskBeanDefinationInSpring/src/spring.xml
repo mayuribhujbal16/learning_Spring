@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<!-- value as a attribute -->
+	
+        <bean id="uID" class="com.model.User"> 
+          <property name="id" value="101"></property> 
+          <property name="name" value="Mayura"></property> 
+          <property name="city" value="Pune"></property> 
+          
+		</bean> 
+
+		
+<!-- ========================================================== -->
+	
+	<!-- value as a field -->
+
+<!--  	<bean id="uID" class="com.model.User">
+		   <property name="id">
+		     <value>102</value>
+		   </property>
+		   
+		   <property name="name">
+		     <value>Tanmayy</value>
+		   </property>
+		   
+		   <property name="city">
+		     <value>Mumbai</value>
+		   </property>
+		   
+		</bean>
+ --> 
+ 
+ <!-- ========================================================== -->
+   <!-- value as a schema element -->
+
+ <!--  
+   <bean id="uID" class="com.model.User" p:id="103" p:name="Pradnyaa" p:city="Delhi"></bean>
+--> 
+</beans>
+	
