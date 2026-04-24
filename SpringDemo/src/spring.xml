@@ -9,11 +9,12 @@
 	<bean id="employee1" class="com.model.Employee">
 		<property name="id" value="101">
 		</property>
-		<property name="name" value="Mayura Mohite">
+		<property name="name" value="Mayura">
 		</property>
 		<property name="marks" value="96">
 		</property>
 
 	</bean>
+
 
 </beans>

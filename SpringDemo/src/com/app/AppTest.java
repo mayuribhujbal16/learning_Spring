@@ -11,7 +11,6 @@ public class AppTest {
 
 		System.out.println(context.getBean("employee1"));
 		
-		
 	}
 
 }
